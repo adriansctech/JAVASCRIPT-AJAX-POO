@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5 col-md-4 col-lg-3">
+          
+          <div class="list-group" id="users-list">
+            <!--Ejemplo de HTML a generar para cada usuario-->
+            <!-- <a href="#" class="list-group-item username" id="user0">User 0<span class="badge">2/5</span></a> -->
+          </div>
+          <p id="info"></p>
+        </div>
+        <div class="col-sm-7 col-md-8 col-lg-9">
+          <table class="table table-striped" id="products-table">
+            <thead>
+              <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Vendido?</th>
+              </tr>
+            </thead>
+            <tbody>
+                <!--Aquí insertaremos filas <tr> con sus datos en celdas <td>-->
+            </tbody>
+          </table>
+          <!-- En este div pondremos el dinero total ganado -->
+          <div class="well well-sm text-center" id="money-won"></div>
+        </div>
+      </div>
+      
+    </div>
+    <script src="data.js"></script>
+    <script src="producto.class.js"></script>
+    <script src="usuario.class.js"></script>    
+    <script src="main.js"></script>
+  </body>
+</html>
